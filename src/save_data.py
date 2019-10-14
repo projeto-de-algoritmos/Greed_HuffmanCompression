@@ -14,7 +14,6 @@ class SaveData(object):
         self.save_codes(codes)
         self.save_compressed_image(gray_image, codes)
         self.save_uncompressed_image(gray_image)
-        print('\nRESULTADOS PODEM SER VISUALIZADOS EM "/results"')
     
     def create_directory(self):
         if not os.path.exists(self.directory):
@@ -61,4 +60,5 @@ class SaveData(object):
                 for value in row:
                     my_s = '{:08b}'.format(value)
                     f.write(my_s.encode())
-        print('> Sucesso!')
+        print('> Sucesso!\n')
+
