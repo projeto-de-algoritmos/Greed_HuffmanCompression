@@ -1,4 +1,4 @@
-# Dijkstra Visualizado
+# Compressão de Huffman
 
 **Número da Lista**: Lista 3<br>
 **Conteúdo da Disciplina**: Algoritmos Gulosos - Codificação de Huffman<br>
